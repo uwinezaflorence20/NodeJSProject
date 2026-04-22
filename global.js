@@ -1,0 +1,1 @@
+// in node we get the access to the global object 

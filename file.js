@@ -27,3 +27,13 @@ fs.writeFile("./docs/blog2.txt","This is the file that we are going to change",(
         console.log("folder deleted");
     })
  }
+
+ // deleting the file
+ if(fs.existsSync('./docs/deleteme.txt')){
+    fs.unlink('./docs/deleteme.txt', (err)=>{
+        if(err){
+            console.log(err);
+        }
+        console.log("file deleted")
+    })
+ }

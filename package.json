@@ -1,0 +1,23 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/uwinezaflorence20/NodeJSProject#readme",
+  "bugs": {
+    "url": "https://github.com/uwinezaflorence20/NodeJSProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwinezaflorence20/NodeJSProject.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "file.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
